@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thinkwiser — Support</title>
+<style>
+  :root{
+    --bg:#0f1714; --card:#16211c; --ink:#eaf3ee; --muted:#9fb3a8;
+    --accent:#ffcf3f; --green:#3ec78a; --line:#243029;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 22px 72px}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+  .logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--green),var(--accent));
+        display:grid;place-items:center;font-size:22px}
+  h1{font-size:26px;margin:0}
+  .tag{color:var(--muted);margin:4px 0 36px}
+  h2{font-size:19px;margin:38px 0 12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:14px 0}
+  .games{display:grid;gap:14px}
+  .game b{color:var(--accent)}
+  a{color:var(--green);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .q{font-weight:600;margin-top:18px}
+  .q:first-child{margin-top:0}
+  .email{font-weight:600;color:var(--accent)}
+  footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">🐵</div>
+    <h1>Thinkwiser</h1>
+  </header>
+  <p class="tag">Camera arcade games you play with your whole body — no controller, no tapping.</p>
+
+  <h2>Our games</h2>
+  <div class="games">
+    <div class="card game"><b>Monkey Dodge</b><br>Duck, jump, and lean to dodge water balloons a cheeky monkey hurls at you. The longer you survive, the angrier he gets.</div>
+    <div class="card game"><b>Balloon Dodge</b><br>Move your body to survive waves of balloons flying at you. Read the swarm, find the gap, beat your best.</div>
+  </div>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p>Need help, found a bug, or have a suggestion? We'd love to hear from you.</p>
+    <p>Email us at <span class="email">prankiie@gmail.com</span> and we'll get back to you as soon as we can.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+  <div class="card">
+    <p class="q">Why does the game need camera access?</p>
+    <p>The front camera is how you play — it reads your body's movement in real time so you can duck, jump, and dodge. The camera feed is processed live on your device to detect your position. It is never recorded, saved, or sent anywhere by us.</p>
+
+    <p class="q">Does the game record me?</p>
+    <p>Only if you choose to. Screen recording is off by default. If you turn it on, the clip is created and stored only on your device so you can share a highlight — it is never uploaded to us, and it's discarded unless you save it to your Photos or share it yourself.</p>
+
+    <p class="q">Can I play in a small space or sitting down?</p>
+    <p>Yes. You can play with your upper body in a tight space or go full-body when you have room. Just make sure the camera can see you and you have a little space to move.</p>
+
+    <p class="q">How do I remove ads?</p>
+    <p>There's a one-time "Remove Ads" purchase in the app. If you've bought it before — even on another device with the same Apple ID — open the paywall and tap <b>Restore Purchases</b>.</p>
+
+    <p class="q">What devices are supported?</p>
+    <p>iPhone with a front-facing camera, running a recent version of iOS. A few feet of space to move helps.</p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms of Use</a><br>
+    © 2026 Thinkwiser. All rights reserved.
+  </footer>
+</div>
+</body>
+</html>
